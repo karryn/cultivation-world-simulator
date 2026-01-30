@@ -1,0 +1,57 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+.eggs
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+web/node_modules/
+web/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test
+tests/
+*.test.*
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Claude
+.claude/
+
+# GitHub
+.github/
+
+# Local config (will be created at runtime)
+static/local_config.yml
+
+# Saves (will be created at runtime)
+saves/
+
+# Build artifacts
+dist/
+build/
+*.exe
+
+# Tools
+tools/
